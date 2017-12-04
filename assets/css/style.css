@@ -118,15 +118,16 @@ h1, h2{
 }
 
 .sidebar {
+  width: 100%;
   max-width: 270px;
   line-height: 20px;
   background: #ffffff;
   padding: 30px;
   margin-bottom: 20px;
   float: right;
-  border: solid 1px #dddddd;
-  position: fixed;
-  
+  border: 1px solid #dddddd;
+  text-align: center;
+
 }
 
 h2, h3, .sidebar {
@@ -148,11 +149,10 @@ h2, h3, .sidebar {
   margin-right: 5px;
   height: 60px;
   width: 60px;
-  z-index: 8;
 }
 
 .networking  :last-child{
-  margin-right: right;
+  margin-right: 0;
 }
 
 footer{
