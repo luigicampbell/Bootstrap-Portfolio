@@ -53,7 +53,6 @@
 nav{
 opacity: .7;
   float: right;
-  text-align: right;
   line-height: 100px;
 }
 
@@ -72,10 +71,6 @@ p{
   text-align: justify;
 }
 
-p :last-child{
-  margin-bottom: 0;
-}
-
 .container{
   width: 100%;
   max-width: 960px;
@@ -90,11 +85,6 @@ h1, h2{
   padding-bottom: 25px;
   font-size: 30px;
   border-bottom: 3px solid #dddddd;
-}
-
-.separator{
-  border-right: solid 1px #efefef;
-
 }
 
 .mainSectionContent{
@@ -119,15 +109,13 @@ h1, h2{
 
 .sidebar {
   width: 100%;
-  max-width: 270px;
   line-height: 20px;
   background: #ffffff;
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 20px;
   float: right;
   border: 1px solid #dddddd;
   text-align: center;
-
 }
 
 h2, h3, .sidebar {
@@ -141,7 +129,9 @@ h2, h3, .sidebar {
 #connect a:hover {
   opacity: .5;
   position: relative;
-
+}
+#connect{
+  width: 100%;
 }
 
 .networking{
@@ -178,6 +168,10 @@ footer{
   width: 100%;
   border: 0 none;
   opacity: .8;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
 }
 
 .work h3{
