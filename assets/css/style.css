@@ -1,19 +1,16 @@
 *{
-  text-decoration: none;
   box-sizing: border-box;
-  color: #777777;
 }
 
 #bigHeader{
   z-index: 8;
   overflow: auto;
-  margin: 0 0 25px;
+  margin: 0 0 30px;
   background: #ffffff;
   width:100%;
   position: fixed;
   color:blue;
   background-color: #ffffff;
-  float: left;
   border-bottom: solid 2px #cccccc;
 }
 
@@ -23,11 +20,11 @@
   font-family: georgia;
   vertical-align: middle;
   float: left;
-  height: 100px;
+  height: 130px;
   width: 250px;
   background: #488cee;
   text-align: center;
-  line-height: 100px;
+  line-height: 90px;
   font-weight: 600;
   font-size: 28px;
   text-decoration: none;
@@ -67,6 +64,10 @@ h1, h2, h3, p {
   margin-bottom: 20px;
 }
 
+p:last-child{
+  margin-bottom: 0;
+}
+
 p{
   text-align: justify;
 }
@@ -90,12 +91,12 @@ h1, h2{
 .mainSectionContent{
   background: #ffffff;
   padding: 30px;
-  margin: 0 0 50px 0;
+  margin: 0 0 40px;
   width: 100%;
-  max-width:650px;
+  max-width: 650px;
   float: left;
   border: 1px solid #dddddd;
-  padding-top: 17px;
+  padding: 30px;
 }
 
 .auth-image {
@@ -115,7 +116,6 @@ h1, h2{
   margin-bottom: 20px;
   float: right;
   border: 1px solid #dddddd;
-  text-align: center;
 }
 
 h2, h3, .sidebar {
@@ -229,12 +229,13 @@ img.auth-img :hover{
 	opacity: .5;
 }
 
-footer{
+footer {
+  padding: 30px 0;
   clear: both;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-footer .push{
-  height: 15px;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #488cee;
 }
